@@ -1,0 +1,44 @@
+PODS:
+  - "!ProtoCompiler (3.7.0)":
+    - Protobuf (~> 3.0)
+  - Flutter (1.0.0)
+  - flutter_blue (0.0.1):
+    - "!ProtoCompiler"
+    - Flutter
+    - flutter_blue/Protos (= 0.0.1)
+  - flutter_blue/Protos (0.0.1):
+    - "!ProtoCompiler"
+    - Flutter
+    - Protobuf
+  - flutter_sound (0.0.1):
+    - Flutter
+  - Protobuf (3.7.0)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_blue (from `.symlinks/plugins/flutter_blue/ios`)
+  - flutter_sound (from `.symlinks/plugins/flutter_sound/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - "!ProtoCompiler"
+    - Protobuf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_blue:
+    :path: ".symlinks/plugins/flutter_blue/ios"
+  flutter_sound:
+    :path: ".symlinks/plugins/flutter_sound/ios"
+
+SPEC CHECKSUMS:
+  "!ProtoCompiler": efc8ba4dceb16b48f6b366a08500871c8d3ff8d2
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_blue: 2552a05424464ae985bc8b28db6c251c7fd9dfe1
+  flutter_sound: ec7c1debf6cd72d44b1270a1f7a999af15ca8113
+  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.5.3
