@@ -51,9 +51,9 @@ packages:
   flutter_blue:
     dependency: "direct dev"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: flutter_blue
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.5.0"
   flutter_sound:
     dependency: "direct dev"

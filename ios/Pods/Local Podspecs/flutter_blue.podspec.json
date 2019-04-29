@@ -24,7 +24,7 @@
     ]
   },
   "frameworks": "CoreBluetooth",
-  "prepare_command": "mkdir -p gen\n/Users/nachourpi/Dev/apps/flutter/flutter_blue/example/Pods/!ProtoCompiler/protoc         --objc_out=gen         --proto_path=../protos         ../protos/*.proto",
+  "prepare_command": "mkdir -p gen\n/Users/nachourpi/Dev/apps/flutter/unit1_poc/Pods/!ProtoCompiler/protoc         --objc_out=gen         --proto_path=../protos         ../protos/*.proto",
   "pod_target_xcconfig": {
     "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
   },
